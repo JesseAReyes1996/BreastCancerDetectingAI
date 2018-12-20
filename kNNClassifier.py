@@ -231,7 +231,7 @@ ax = axs[1,0]
 ax.errorbar(numNeighbors, [i[4] for i in measures], yerr=[i[5] for i in measures], ecolor="green")
 ax.set_title("Specificity")
 
-fig.text(0.5, 0.05, "K-Neighbors", ha="center", va="center")
+fig.text(0.5, 0.05, "k-Neighbors", ha="center", va="center")
 fig.text(0.05, 0.5, "Performance", ha="center", va="center", rotation="vertical")
 
 fig.suptitle("Cross-Validation: P=2")
